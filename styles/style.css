@@ -1,0 +1,22 @@
+p {
+    color: black;
+}
+html {
+    background-color: aquamarine;
+}
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    color: blue;
+    text-shadow: 2px 2px 1px black;
+}
+img {
+    display: block;
+    width: 600px;
+    height: 900px;
+    margin: 0 auto;
+}
+video {
+    display: block;
+    margin: 1 auto;
+}
