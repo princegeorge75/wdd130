@@ -22,6 +22,9 @@ img {
     height: 900px;
     margin: 0 auto;
 }
+.para {
+    margin: 30px;
+}
 video {
     display: block;
     margin: 1 auto;
