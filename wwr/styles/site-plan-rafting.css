@@ -25,6 +25,7 @@ body {
     font-family: var(--paragraph-font);
     max-width: 960px;
     padding: 2px;
+    background-color: aqua;
 }
 
 h1, h2, h3, h4, h5, h6 {
