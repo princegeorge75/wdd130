@@ -1,8 +1,14 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
 p {
     color: black;
 }
 html {
-    background-color: aquamarine;
+    background-color: pink;
 }
 h1 {
     margin: 0 auto;
@@ -15,8 +21,23 @@ img {
     width: 600px;
     height: 900px;
     margin: 0 auto;
+    float: right;
 }
 video {
     display: block;
     margin: 1 auto;
+}
+
+/* Class Selectors */
+.box {
+    margin: 1rem;
+    border: 2rem solid rgba(0, 0, 0, .1);
+    padding: 1rem;
+    background-color: azure;
+    color: brown;
+}
+
+aside {
+    width: auto;
+    text-align: center;
 }
