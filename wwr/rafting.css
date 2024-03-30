@@ -1,1 +1,14 @@
-@import url();
+@import url('https://fonts.googleapis.com/css2?family=Farsan&family=Handlee&family=Patrick+Hand+SC&display=swap');
+
+:root {
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+    --background-color: #f8f9fa; 
+    --text-color: #343a40;
+
+    --heading-font: Farsan;
+    --paragraph-font: Handlee;
+    
+}
+
+
