@@ -15,10 +15,16 @@
     --nav-hover-background-color: #007bff;
 }
 
+
 h1,h2,h3,h4,h5,h6 {
     font-family: var(--heading-font);
     color: #6c757d;
-    left: 50%;
+    text-align: center;
+}
+
+.images {
+    text-align: center;
+    
 }
 
 header{
@@ -107,18 +113,19 @@ footer p {
     position: absolute;
 }
 
-footer img{
-    position: absolute;
-    width: 20%;
-    height: auto;
-    top: 1px;
-    padding: 0px;
-}
 
 footer nav {
-    position: relative;
-    width: 30%;
+    position: absolute;
+    width: 180px;
     float: right;
     height: 40px;
     margin-top: 35px;
+    left: 70%
+}
+
+footer img{
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    
 }
