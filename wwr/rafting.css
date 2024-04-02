@@ -24,12 +24,24 @@ h1,h2,h3,h4,h5,h6 {
 
 .images {
     text-align: center;
+    display: flex;
     
+}
+
+.images img {
+    width: 100%;
+}
+
+figure {
+    padding: 2px;
+    margin: 2px;
 }
 
 header{
     padding: 20px;
     background-color: var(--accent1-color);
+    display: grid;
+    grid-template-columns: 1fr 2fr;
 }
 p{
     padding: 25px;
@@ -38,6 +50,8 @@ nav{
     background-color: var(--nav-background-color);
     font-size: 1rem;
     display: flex;
+    height: 40px;
+    align-items: center;
 }
 nav a{
     display: block;
@@ -94,10 +108,10 @@ hero-content {
   }
   
   .hero article img {
-    width: 120px;
+    width: 250px;
     float: right;
     margin-top: 40px;
-    height: 170px;
+    height: auto;
   }
 
   .hero article p {
@@ -120,7 +134,8 @@ footer nav {
     float: right;
     height: 40px;
     margin-top: 35px;
-    left: 70%
+    left: 70%;
+    align-items: center;
 }
 
 footer img{
