@@ -40,6 +40,7 @@ figure {
 header{
     padding: 2px;
     margin: 2px;
+    align-items: center;
     background-color: var(--accent1-color);
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -122,6 +123,7 @@ hero-content {
   
 footer {
     position: relative;
+    align-items: center;
 }
 
 footer p {
