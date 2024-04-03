@@ -38,7 +38,8 @@ figure {
 }
 
 header{
-    padding: 20px;
+    padding: 2px;
+    margin: 2px;
     background-color: var(--accent1-color);
     display: grid;
     grid-template-columns: 1fr 2fr;
