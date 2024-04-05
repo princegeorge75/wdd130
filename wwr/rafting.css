@@ -147,3 +147,13 @@ footer img{
     margin: 0px;
     
 }
+
+.history {
+    display: flex;
+    align-items: center;
+}
+
+.history .img {
+    width: 300px;
+    height: auto;
+}
