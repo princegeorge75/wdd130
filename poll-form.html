@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 130 | HTML Form - User Poll</title>
+</head>
+<body>
+    <header>
+        <h1>WDD 130 | Prince George Ndiwalana | User Poll</h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Contact information</legend>
+                <label for="fullname">Fullname:</label><br>
+                <input type="text" id="fullname" name="fullname"><br><br>
+                <label for="email">Email Address:</label><br>
+                <input type="email" id="email" name="email"><br><br>
+            </fieldset>
+            <fieldset>
+                <legend>Questions</legend>
+                <label for="browser">What is your favorite browser</label><br>
+                <select name="browser" id="browser" size="4">
+                    <option value="default">--Select--</option>
+                    <option value="chrome">Chrome</option>
+                    <option value="firefox">Firefox</option>
+                    <option value="bing">Bing</option>
+                    <option value="edge">Microsoft Edge</option>
+                    <option value="safari">safari</option>
+                    <option value="brave">Brave</option>
+                </select><br><br>
+                <label for="pet">Do you have a household pet?</label><br>
+                <input type="checkbox" id="pet" name="pet"><br><br>
+                <label for="feedback">List the places you have lived:</label><br>
+                <textarea id="feedback" name="feedback" rows="4" placeholder="Kampala Uganda, Mombasa Kenya, Khumasi Ghana, Utah USA"></textarea>
+            </fieldset><br>
+            <button type="submit">Submit Poll</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy;2024 | HTML Form - User Poll Activity | Prince George Ndiwalana</p>
+    </footer>  
+</body>
+</html>
