@@ -31,6 +31,12 @@ h1,h2,h3,h4,h5,h6 {
 .images img {
     width: 100%;
 }
+.page_1 main .para{
+    text-align: center;
+    display: flex;
+    align-content: space-evenly;
+    justify-content: space-evenly;
+}
 
 figure {
     padding: 2px;
@@ -161,6 +167,13 @@ footer img{
 
 .page_1 {
     background-color: aqua;
+    border: 10px solid ;
+    padding: 10px;
+    margin: 5px;
+}
+ 
+.page_1 nav{
+    justify-content: space-evenly;
 }
 
 .page_1 h1,h2, h3, h4, h5, h6 {
@@ -168,15 +181,15 @@ footer img{
     color: #6c757d;
     text-align: left;
     left: 40px;
+    padding: 2px;
 }
 
 .page_1 header {
     padding: 2px;
     margin: 2px;
+    bottom: 2px;
     align-items: flex-start;
     background-color: var(--accent1-color);
-    display: grid;
-    grid-template-columns: 1fr 2fr;
 }
 
 .page_1 p {
@@ -208,6 +221,21 @@ footer img{
 }
 
 .page_1 .map {
-    align-items: center;
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.page_1 .link nav{
+    align-self: baseline;
+}
+
+.page_1 footer {
+    align-content: center;
+    top: 20px;
+}
+
+.page_1 footer nav {
+    top: -25px;
 }
