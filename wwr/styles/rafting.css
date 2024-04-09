@@ -158,3 +158,56 @@ footer img{
     width: 300px;
     height: auto;
 }
+
+.page_1 {
+    background-color: aqua;
+}
+
+.page_1 h1,h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: #6c757d;
+    text-align: left;
+    left: 40px;
+}
+
+.page_1 header {
+    padding: 2px;
+    margin: 2px;
+    align-items: flex-start;
+    background-color: var(--accent1-color);
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.page_1 p {
+    padding: 2px;
+}
+.form button :hover {
+    color: aqua;
+    background-color: aqua;
+}
+
+.page_1 button {
+    background-color:#343a40;
+}
+
+.page_1 button:hover {
+    background-color:blue;
+    color:brown;
+}
+
+.page_1 .employee {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.page_1 .employee img {
+    width: 300px;
+}
+
+.page_1 .map {
+    align-items: center;
+    display: flex;
+}
