@@ -3,48 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>George Nicodemus Kijjambu | WDD 130</title>
-    <meta name="description" content="Prince GeorgeNdiwalana, Software Development. The purpose of this site is to test my programming skills.">
-    <meta name="author" content="Prince George N. Kijjambu Gcabashe">
-    
+    <title>White Water Rafting - About Us Page</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+    <meta name="description" content="This page includes information about the White Rafting Company and this serves to help the users and customers get to understand and learn more about the company.">
+    <meta name="author" content="Prince George Ndiwalana">
 </head>
-<body>
-    <link rel="stylesheet" href="styles/styles.css">
+<body class="page_3">
     <header>
+        <img src="images/logo1.jpg" alt="Picture of Site Logo">
         <nav>
-            <a href="#">Home</a>
-            <a href="wwr/">Rafting Website</a>
-            <a href="wwr/site-plan-rafting.html">Rafting Site Plan</a>
-            <a href="www.linkedin.com/in/george-nicodemus-kijjambu-6321841ab">LinkedIn Page</a>
-            <a href="https://facebook.com">Facebook</a>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contacts</a>
         </nav>
     </header>
-    <div class="grid">
-        <main>
-            <h1>George Nicodemus Kijjambu | WDD 130</h1>
-            <img src="wwr/images/headshot.jpg" alt="Profile Picture" width="200">
-            <p>My name is "Prince George Nicodemus Kijjambu Gcabashe, Ndiwalana" but because I have a lot of names,and it is quite irrelevant so, I usually just go by "George Nicodemus Kijjambu". I am a student studying software development from BYU-I Online.</p> 
-                <p>I live in Kampala, Uganda. Uganda is a country found in East Africa which is also the home to the source of the world's longest river. I love Music, especially playing the piano, guitar and the violin.</p> 
-            <ul class="box">
-                <li>
-                    <a href="https://www.churchofjesuschrist.org/temples/photo-gallery/rome-italy-temple?lang=eng">Rome, Italy Temple</a>
-                </li>
-                <li>
-                    <a href="https://www.churchofjesuschrist.org/temples/photo-gallery/bountiful-utah-temple?lang=eng">Bountiful, Utah Temple</a>
-                </li>
-                <li><a href="https://www.churchofjesuschrist.org/temples/photo-gallery/johannesburg-south-africa-temple?lang=eng">Johannesburg, South Africa Temple</a></li>
-            </ul>
-        </main> 
-        <aside class="box">
-            <h2>Uganda</h2>
-            <img src="wwr/images/images.jpg" alt="Photo of Kampala city, the capital of Uganda, at sunset.">
-            <p>Uganda is a landlocked small country found in East Africa with it's capital called Kampala. </p>
-        </aside>
-    </grid>    
-    </div>
+    <main>
+        <div class="image">
+            <img src="images/home-image.jfif" alt="Home image">
+            <article>    
+                <h1>White Water Rafting Ug</h1>
+                    <p>Embark on your Thrilling River Adventure with White Water Rafting Company Uganda - Where Rapids Meet Excitement! <br><br>Embark on an unforgettable journey with Adventure Rapids, where thrilling rapids meet breathtaking scenery. Dive into the heart-pounding excitement of whitewater rafting as you navigate through rugged canyons and pristine waters.</p>
+            </article>         
+        </div>
+        <p>Want to be updated about the latest discoveries and new adventures, why not subscribe to our monthly newsletter.</p>
+        <form>
+            <fieldset>
+                <legend>Subscribe To The newsletter</legend>
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="fname">
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lname"><br><br>
+                <label for="email">Email Address</Address></label>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="check">Check this box if you would like to also receive job alerts.</label>
+                <input type="checkbox" id="check" name="check".>
+            </fieldset><br>
+            <button type="submit">Send</button>
+        </form><br>
+        <p>"Ready to embark on your next adventure? Click here to view our trips and book your unforgettable experience now. Visit our <a href="trips.html">Trips page</a>.</p>
+        <div class="grid-container">
+                <div class="grid-item">
+                    <img src="images/grid_image1.jfif" alt="Rafting Image 1">
+                    <img src="images/grid_image2.jfif" alt="Rafting Image 2">
+                </div><br>
+                <div class="content">
+                    <p>Experience the thrill of conquering raging rapids and exploring stunning landscapes on our white water rafting tours.</p>
+                    <p>Discover unforgettable moments with friends and family as you navigate through exhilarating rapids and bond over shared adventures.</p>
+                </div>
+        </div>
+    </main>
     <footer>
-        <p>&copy; 2024 🐷 George Nicodemus Kijjambu, Uganda</p>
+        <p>&copy; 2024 | White Water Rafting Ug | Prince George Ndiwalana</p>
+        <nav class="sociallinks">
+            <a href="https://facebook.com">
+                <img src="images/facebook.png" alt="Facebook">
+            </a>
+            <a href="https://twitter.com">
+                <img src="images/twitter.png" alt="Twitter">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.png" alt="Instagram">
+            </a>
+        </nav>
     </footer>
 </body>
-<!--28th March 2024-->
 </html>
