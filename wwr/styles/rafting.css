@@ -15,7 +15,6 @@
     --nav-hover-background-color: #007bff;
 }
 
-
 h1,h2,h3,h4,h5,h6 {
     font-family: var(--heading-font);
     color: #6c757d;
@@ -50,6 +49,7 @@ header{
     background-color: var(--accent1-color);
     display: grid;
     grid-template-columns: 1fr 2fr;
+    border-bottom: 2px solid;
 }
 p{
     padding: 25px;
@@ -60,7 +60,11 @@ nav{
     display: flex;
     height: 40px;
     align-items: center;
+    justify-content: space-evenly;
+    align-self: baseline;
 }
+
+
 nav a{
     display: block;
     color: var(--nav-link-color);
@@ -131,6 +135,9 @@ hero-content {
 footer {
     position: relative;
     align-items: center;
+    align-content: center;
+    top: 20px;
+    border-top: 2px solid;
 }
 
 footer p {
@@ -142,18 +149,22 @@ footer nav {
     position: absolute;
     width: 180px;
     float: right;
+    top: -25px;
     height: 40px;
     margin-top: 35px;
     left: 70%;
-    align-items: center;
+    justify-content: space-evenly;
+    align-self: baseline;
 }
 
 footer img{
     width: 100%;
     height: auto;
     margin: 0px;
+    top: -25px;
     
 }
+
 
 .history {
     display: flex;
@@ -173,10 +184,6 @@ footer img{
     margin: 5px;
 }
  
-.page_1 nav{
-    justify-content: space-evenly;
-}
-
 .page_1 h1,h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: #6c757d;
@@ -228,15 +235,50 @@ footer img{
     justify-content: space-evenly;
 }
 
-.page_1 .link nav{
-    align-self: baseline;
+.page_2 table, th, td {
+    border: 1px solid black;
 }
 
-.page_1 footer {
-    align-content: center;
-    top: 20px;
+.page_2 {
+    background-color: #0e9ab362;
 }
 
-.page_1 footer nav {
-    top: -25px;
+.page_2 h1,h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: #6c757d;
+    text-align: left;
+    left: 40px;
+    padding: 2px;
+}
+
+.page_2 p {
+    padding: 2px;
+    font-family: var(--paragraph-font);
+}
+
+.page_2 .images {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.page_2 .images img {
+    width: 300px;
+    padding: 5px;
+    border: 2px 
+}
+
+.page_2 .tables {
+    margin: 0 auto;
+    width: 50%;
+}
+
+.page_2 h1 {
+    font-family: var(--heading-font);
+    text-decoration: underline;
+    color: #6c757d;
+    text-align: center;
+    left: 40px;
+    padding: 2px;
 }
