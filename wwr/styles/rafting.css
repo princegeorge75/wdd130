@@ -172,10 +172,6 @@ footer img{
     flex-direction: row;
 }
 
-.history .img {
-    width: 300px;
-    height: auto;
-}
 
 .page_1 {
     background-color: aqua;
@@ -245,10 +241,17 @@ footer img{
 
 .page_2 h1,h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
-    color: #6c757d;
+    color: #241a79;
     text-align: left;
     left: 40px;
     padding: 2px;
+}
+
+.page_2 .history img {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .page_2 p {
