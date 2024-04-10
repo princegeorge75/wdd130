@@ -2,7 +2,7 @@
 
 :root {
     --primary-color: #007bff;
-    --secondary-color: #6c757d;
+    --secondary-color: #1d0d79;
     --background-color: #f8f9fa; 
     --text-color: #343a40;
 
@@ -17,7 +17,7 @@
 
 h1,h2,h3,h4,h5,h6 {
     font-family: var(--heading-font);
-    color: #6c757d;
+    color: #121070;
     text-align: center;
 }
 
@@ -277,7 +277,7 @@ footer img{
 .page_2 h1 {
     font-family: var(--heading-font);
     text-decoration: underline;
-    color: #6c757d;
+    color: #221b7c;
     text-align: center;
     left: 40px;
     padding: 2px;
@@ -291,10 +291,20 @@ footer img{
     margin-bottom: 0px;
 }
 
+.page_4 {
+    background-color: darkolivegreen;
+}
+
 .page_3 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 20px;
+}
+
+.page_3 {
+    background-color: burlywood;
+    align-content: center;
+    align-items: center;
 }
 
 .grid-item {
