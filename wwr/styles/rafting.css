@@ -310,6 +310,17 @@ footer img{
 
 .page_3 fieldset {
     width: 45%;
+    background-color: #6c757d;
+}
+
+.page_3 button {
+    background-color: black;
+    color: aqua;
+}
+
+.page_3 button:hover {
+    background-color: aqua;
+    color: black;
 }
 
 .image{
